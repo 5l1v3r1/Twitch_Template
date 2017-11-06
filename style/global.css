@@ -1,0 +1,49 @@
+html {
+	color: white;
+	font-family: Book Antiqua, Helvetica, sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+
+
+body {
+	background: url(../images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 1;
+	
+}
+
+/* Link opmaak */
+
+a:LINK  {
+	color: white;
+	text-decoration: none;
+	font-family: Book Antiqua, Helvetica, sans-serif;
+
+}
+
+a:VISITED {
+	color: white;
+	text-decoration: none;
+	font-family: Book Antiqua, Helvetica, sans-serif;
+
+}
+
+a:HOVER {
+	color: white;
+	text-decoration: none;
+	font-family: Book Antiqua, Helvetica, sans-serif;
+
+}
+
+a:ACTIVE {
+	color: black;
+	text-decoration: none;
+	font-family: Book Antiqua, Helvetica, sans-serif;
+
+}

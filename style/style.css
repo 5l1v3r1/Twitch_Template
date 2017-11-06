@@ -1,0 +1,232 @@
+/* DIV opmaak */
+
+#fullpage {
+	height: 100%;
+	width: 100%;
+
+}
+
+#header {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 10%;
+	width: 99%;
+
+}
+
+.menu-item {
+	display: block;
+	border-radius: 25px;
+	height: 40px;
+	width: 200px;
+	background-color: black;
+	opacity: 0.8;
+	transition: 0.5s;
+	position: absolute;
+	right: -175px;
+	border: solid;
+	border-color: black;
+}
+
+.menu-item:hover {
+	background-color: darkorange;
+	opacity: 1;
+	right: -70px;
+	border: solid;
+	border-color: darkorange;
+}
+
+.menu-img {
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	height: 35px;
+	width: 35px;
+}
+
+.menu-label {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	cursor: pointer;
+}
+
+/* Show Chat Button */
+.showchat {
+	top: 80px;
+}
+
+#chatframe {
+	background-color: black;
+	position: absolute;
+	top: 210px;
+	left: 75%;
+	display: none; /* Onzichtbaar */
+	height: 0px; /* Onzichtbaar */
+	width: 0px; /* Onzichtbaar */
+	border: none;
+	opacity: 0.9;
+}
+
+#chatframe:target {
+	display: block; /* Laat de DIV zien met deze opmaak */
+	height: 420px;
+	width: 300px;
+	border: none;
+
+}
+
+/* Hide Chat Button */
+.hidechat {
+	top: 130px;
+}
+
+#nochatframe {
+	height: 0px;
+	width: 0px;
+	display: none;
+}
+
+#nochatframe:target {
+	height: 0px;
+	width: 0px;
+	display: none;
+}
+
+#tag1 {
+	display: block;
+	color: white;
+	position: absolute;
+	left: 75px;
+	top: 50%;
+	height: 40%;
+	width: 10%;
+	font-size: 22px;
+
+}
+
+#tag2 {
+	color: white;
+	position: absolute;
+	left: 172px;
+	top: 50%;
+	display: block;
+	background-color: darkorange;
+	border-radius: 25px;
+	width: 60px;
+	height: 28px;
+	font-size: 22px;
+}
+
+
+#wrapper {
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	height: 84%;
+	width: 99%;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+}
+
+#frame-head {
+	position: absolute;
+	top: 19%;
+	text-align: center;
+	width: 100%;
+	font-size: 22px;
+}
+
+#iframe1 {
+	height: 420px;
+	width: 650px;
+	border: none;
+}
+
+#player {
+	position: absolute;
+	top: 210px;
+	display: block;
+	height: 420px;
+	width: 100%;
+}
+
+#button1 {
+	position: relative;
+	display: block;
+	margin-left: auto; /* Center*/
+	margin-right: auto; /* Center*/
+	top: 650px;
+	height: 50px;
+	width: 200px;
+	border: solid;
+	border-color: white;
+	border-radius: 25px;
+	transition: 0.5s;
+}
+
+#button-text {
+	position: absolute;
+	top: 17px;
+	left: 40px;
+	cursor: pointer;
+
+}
+
+#button1:hover {
+	background-color: darkorange;
+	border-color: darkorange;
+}
+
+#footer {
+	font-size: 12px;
+	position: absolute;
+	top: 94%;
+	left: 0%;
+	height: 6%;
+	width: 99%;
+}
+
+.media {
+	position: absolute;
+	top: 50%;
+	height: 30px;
+	width: 30px;
+	display: block;
+	border-radius: 25px;
+	transition: 0.5s;
+}
+
+.twitter {
+	right: 20%;
+}
+
+.yt {
+	right: 15%;
+}
+
+.steam {
+	right: 10%;
+}
+
+.email {
+	right: 5%;
+}
+
+.icon-size {
+	height: 30px;
+	width: 30px;
+}
+
+.icon-hover:hover {
+	background-color: darkorange;
+}
+
+#chat {
+	height: 100%;
+	width: 100%;
+}
